@@ -85,6 +85,7 @@ img{
 .site-nav__list{
     display: flex;
     list-style: none;
+    margin-left: -40px;
 }
 
 .site-nav__item{
