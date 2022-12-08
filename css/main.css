@@ -306,4 +306,38 @@ img {
   border-radius: 50%;
 }
 /* DELIVERY STYLES END */
+
+/****   ASIDE SECTION START ****/
+.aside_section {
+    background-image: url("../images/asides_bg_images.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 630px) calc(50% + 120px);
+    padding: 76px 0;
+    background-color: #F67E7E;
+}
+
+.aside_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside_main_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: #012F34;
+    margin-right: 260px;
+}
+.aside_contact_btn {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+}
+/****!   ASIDE SECTION END */
 /******* Main style end *********/
+
