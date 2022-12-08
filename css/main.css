@@ -1,5 +1,4 @@
 /* ROOT */
-
 :root {
     /* --header-bg-color: #fff; */
     /* --main-bg-color: #fff; */
@@ -15,44 +14,45 @@ html {
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 0;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
-    background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
-    width: 100%;
-    max-width: 1150px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 /* HEADER STYLES START */
@@ -160,5 +160,71 @@ img {
 
 /******* Hero section style end *********/
 
+.building-section {
+  padding: 198px 0 140px 0;
+  background-color: #012f34;
+  background-image: url(../images/blur.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 755px) calc(50% + 230px);
+}
+.building-section-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.building-section-title {
+    position: relative;
+  width: 445px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: 0;
+  margin-right: 132px;
+
+}
+.building-section-title::before{
+    top: -54px;
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #F67E7E;
+    content: "";
+}
+.building-section-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.building-section-item {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-bottom: 32px;
+}
+.building-section-both {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.building-section-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f67e7e;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.building-section-item-desc {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
 
 /******* Main style end *********/
+
