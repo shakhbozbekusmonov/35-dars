@@ -1,12 +1,12 @@
-
 /* ROOT */
-:root{
+
+:root {
     /* --header-bg-color: #fff; */
     /* --main-bg-color: #fff; */
     /* --main-text-color: #fff; */
 }
 
-html{
+html {
     box-sizing: border-box;
     height: 100%;
     scroll-behavior: smooth;
@@ -18,7 +18,7 @@ html{
     box-sizing: inherit;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -28,7 +28,7 @@ body{
     background-color: #fff;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
@@ -46,7 +46,7 @@ img{
     overflow: hidden;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1240px;
     margin-right: auto;
@@ -55,3 +55,63 @@ img{
     padding-left: 20px;
 }
 
+
+/******* Main style start *********/
+
+
+/******* Hero section style start *********/
+
+.hero-section {
+    padding: 56px 0 250px 0;
+    background-color: #014E56;
+    background-image: url(../images/disk-left.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 800px) calc(50% - 87px);
+}
+
+.hero-section__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section__title {
+    width: 600px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.hero-section__span {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #F67E7E
+}
+
+.hero-section__text {
+    position: relative;
+    width: 445px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.hero-section__text::before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    border-top: 4px solid #79c8c7;
+    position: absolute;
+    top: -65px;
+}
+
+
+/******* Hero section style end *********/
+
+
+/******* Main style end *********/
